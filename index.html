@@ -1,30 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boredom Buster</title>
+    <title>Chasse-Ennui</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Boredom Buster</h1>
-        <div class="filters">
-            <select id="locationFilter">
-                <option value="all">All Locations</option>
-                <option value="Intérieur">Indoor</option>
-                <option value="Extérieur">Outdoor</option>
-            </select>
-            <select id="categoryFilter">
-                <option value="all">All Categories</option>
-                <option value="Créatif">Creative</option>
-                <option value="Éducation">Educational</option>
-            </select>
+        <h1>Chasse-Ennui</h1>
+        <p>Fatigué de tourner en rond, à la recherche de quelque chose d'excitant à faire?</p>
+        <div id="activityCard" class="activity-card">
+            <!-- Content populated with JavaScript -->
         </div>
-        <button id="generateActivity" class="generate-button">Find an Activity!</button>
-        <div id="activityDisplay" class="activity-display">
-            <p>Appuyez sur le bouton pour obtenir une idée d'activité.</p> <!-- Placeholder text -->
+        <div class="tabs">
+            <div id="interiorTab" class="tab active">Intérieur</div>
+            <div id="exteriorTab" class="tab">Extérieur</div>
         </div>
+        <button id="findActivity" class="find-activity">Trouver une activité</button>
     </div>
     <script src="script.js"></script>
 </body>

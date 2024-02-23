@@ -1,30 +1,42 @@
-document.getElementById('generateActivity').addEventListener('click', function() {
-    const locationFilter = document.getElementById('locationFilter').value;
-    const categoryFilter = document.getElementById('categoryFilter').value;
+let currentEmplacement = 'Intérieur'; // Default to 'Intérieur'
+const activityCard = document.getElementById('activityCard');
 
-    fetch('activities.json')
-        .then(response => response.json())
-        .then(data => {
-            const filteredData = data.filter(activity =>
-                (locationFilter === 'all' || activity.Emplacement === locationFilter) &&
-                (categoryFilter === 'all' || activity.Catégorie === categoryFilter)
-            );
+document.addEventListener('DOMContentLoaded', function() {
+    const interiorTab = document.getElementById('interiorTab');
+    const exteriorTab = document.getElementById('exteriorTab');
+    const findActivityButton = document.getElementById('findActivity');
 
-            if (filteredData.length === 0) {
-                document.getElementById('activityDisplay').innerHTML = "<p>No activities found. Try different filters.</p>";
-                return;
-            }
+    interiorTab.addEventListener('click', function() { selectTab('Intérieur'); });
+    exteriorTab.addEventListener('click', function() { selectTab('Extérieur'); });
+    findActivityButton.addEventListener('click', loadRandomActivity);
 
-            const randomIndex = Math.floor(Math.random() * filteredData.length);
-            const activity = filteredData[randomIndex];
-            document.getElementById('activityDisplay').innerHTML = `
-                <h2>${activity.Activité}</h2>
-                <p><strong>Description:</strong> ${activity.Description}</p>
-                <p><strong>Instructions:</strong> ${activity.Instructions}</p>
-            `;
-        })
-        .catch(error => {
-            console.error('Could not fetch activities:', error);
-            document.getElementById('activityDisplay').textContent = 'Sorry, there was an error loading the activities. Please try again later.';
-        });
+    loadRandomActivity(); // Load a random activity on initial page load
 });
+
+function selectTab(emplacement) {
+    currentEmplacement = emplacement;
+    interiorTab.classList.toggle('active', emplacement === 'Intérieur');
+    exteriorTab.classList.toggle('active', emplacement === 'Extérieur');
+    loadRandomActivity();
+}
+
+function loadRandomActivity() {
+    // Assuming activities.json is an array of activities
+    const activities = activitiesData.filter(activity => activity.Emplacement === currentEmplacement);
+    if (activities.length === 0) {
+        activityCard.innerHTML = 'No activities available.';
+        return;
+    }
+    const randomActivity = activities[Math.floor(Math.random() * activities.length)];
+    displayActivity(randomActivity);
+}
+
+function displayActivity(activity) {
+    activityCard.innerHTML = `
+        <h2>${activity.Activité}</h2>
+        <div class="tag">${activity.Catégorie}</div>
+        <hr>
+        <p>${activity.Description}</p>
+        <p>${activity.Instructions}</p>
+    `;
+}
