@@ -19,11 +19,8 @@ function setActiveTab(category) {
     currentCategory = category;
     document.getElementById('interiorTab').classList.remove('active');
     document.getElementById('exteriorTab').classList.remove('active');
-    if (category === 'Intérieur') {
-        document.getElementById('interiorTab').classList.add('active');
-    } else {
-        document.getElementById('exteriorTab').classList.add('active');
-    }
+    document.getElementById(`${category.toLowerCase()}Tab`).classList.add('active');
+    displayRandomActivity(currentCategory); // Load a random activity for the selected category
 }
 
 function displayRandomActivity(category) {
@@ -48,8 +45,13 @@ function updateActivityCard(activity) {
 }
 
 function fetchActivitiesData() {
-    return fetch('activities.json') // Adjust the path if necessary
-        .then(response => response.json())
+    return fetch('activities.json') // Assuming the JSON is at the root
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
             activitiesData = data;
         })
