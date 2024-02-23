@@ -1,16 +1,14 @@
-document.getElementById('generateActivity').addEventListener('click', () => {
+document.getElementById('generateActivity').addEventListener('click', function() {
     fetch('activities.json')
         .then(response => response.json())
-        .then(activities => {
-            const randomIndex = Math.floor(Math.random() * activities.length);
-            const activity = activities[randomIndex];
-            document.getElementById('activityDisplay').innerHTML = `
-                <strong>${activity.title}</strong>
-                <p>${activity.description}</p>
-                <p><em>${activity.instructions}</em></p>`;
+        .then(data => {
+            const randomIndex = Math.floor(Math.random() * data.length);
+            const activity = data[randomIndex];
+            const display = document.getElementById('activityDisplay');
+            display.innerHTML = `<h2>${activity.Activité}</h2><p>${activity.Description}</p><p><strong>Instructions:</strong> ${activity.Instructions}</p>`;
         })
         .catch(error => {
-            console.error('Error fetching the activities:', error);
-            document.getElementById('activityDisplay').textContent = 'Failed to load activities. Please try again later.';
+            console.error('Could not fetch activities:', error);
+            document.getElementById('activityDisplay').textContent = 'Sorry, there was an error loading the activities. Please try again later.';
         });
 });
