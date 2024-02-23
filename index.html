@@ -9,10 +9,20 @@
 <body>
     <div class="container">
         <h1>Boredom Buster</h1>
-        <div id="activityDisplay" class="activity-display">
-            <p>Besoin d'une idée ? Appuyez sur le bouton !</p>
+        <div class="filters">
+            <select id="locationFilter">
+                <option value="all">All Locations</option>
+                <option value="Intérieur">Indoor</option>
+                <option value="Extérieur">Outdoor</option>
+            </select>
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="Créatif">Creative</option>
+                <option value="Éducation">Educational</option>
+            </select>
         </div>
-        <button id="generateActivity" class="generate-button">Trouver une activité !</button>
+        <button id="generateActivity" class="generate-button">Find an Activity!</button>
+        <div id="activityDisplay" class="activity-display"></div>
     </div>
     <script src="script.js"></script>
 </body>
