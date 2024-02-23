@@ -3,8 +3,8 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f8ff;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background-color: #A7DBD8; /* Light teal background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,33 +14,43 @@ body, html {
 .container {
     padding: 20px;
     border-radius: 15px;
-    background: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #E0E4CC; /* Soft green background */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    color: #333366;
+    color: #F38630; /* Vibrant orange color */
     margin-bottom: 20px;
 }
 
-.activity-display {
-    margin: 20px 0;
-    padding: 10px;
-    background-color: #e6e6fa;
-    border-radius: 8px;
+.filters select {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #FAFAFA;
 }
 
 .generate-button {
     padding: 10px 20px;
     font-size: 18px;
-    color: #fff;
-    background-color: #333366;
+    color: #FFF;
+    background-color: #69D2E7; /* Sky blue color */
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s;
 }
 
 .generate-button:hover {
-    background-color: #5959b3;
+    background-color: #F38630; /* Vibrant orange color */
+    transform: scale(1.05); /* Slightly enlarges the button */
+}
+
+.activity-display {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #FAFAD2; /* Light golden background */
+    border-radius: 8px;
+    color: #556B2F; /* Dark olive green text */
 }
