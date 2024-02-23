@@ -3,8 +3,8 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: 'Comic Sans MS', 'Arial', sans-serif;
-    background-color: #A7DBD8; /* Light teal background */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fff; /* White background for minimalism */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,43 +14,42 @@ body, html {
 .container {
     padding: 20px;
     border-radius: 15px;
-    background: #E0E4CC; /* Soft green background */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background: #f9f9f9; /* Very light gray background for a subtle contrast */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 h1 {
-    color: #F38630; /* Vibrant orange color */
+    color: #333; /* Dark gray for contrast */
     margin-bottom: 20px;
 }
 
 .filters select {
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #FAFAFA;
+    border: 2px solid #ddd; /* Light border for definition */
+    background-color: #fff;
 }
 
 .generate-button {
     padding: 10px 20px;
     font-size: 18px;
-    color: #FFF;
-    background-color: #69D2E7; /* Sky blue color */
+    color: #fff;
+    background-color: #4CAF50; /* A pop of color with green */
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s;
+    transition: background-color 0.3s;
 }
 
 .generate-button:hover {
-    background-color: #F38630; /* Vibrant orange color */
-    transform: scale(1.05); /* Slightly enlarges the button */
+    background-color: #45a049; /* Darker green on hover for interaction */
 }
 
 .activity-display {
     margin: 20px 0;
-    padding: 10px;
-    background-color: #FAFAD2; /* Light golden background */
+    padding: 20px;
+    background-color: #fff; /* Keeping the background white for cleanliness */
+    border: 2px solid #ddd; /* Slight border for definition */
     border-radius: 8px;
-    color: #556B2F; /* Dark olive green text */
 }
