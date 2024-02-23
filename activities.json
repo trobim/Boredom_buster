@@ -1,0 +1,112 @@
+[
+  {
+    "Activité": "Chasse au trésor dans la maison",
+    "Description": "Une aventure excitante à l'intérieur, où les enfants cherchent des trésors cachés.",
+    "Instructions": "Cachez des objets autour de la maison et créez une carte ou une série d'indices pour les trouver."
+  },
+  {
+    "Activité": "Atelier de peinture naturelle",
+    "Description": "Utilisation de pigments naturels pour peindre.",
+    "Instructions": "Collectez des éléments naturels comme des baies, des épices, et des légumes pour créer des peintures. Utilisez-les pour peindre sur du papier."
+  },
+  {
+    "Activité": "Construction de cabanes avec des draps",
+    "Description": "Création de cabanes et de forts avec des draps et du mobilier.",
+    "Instructions": "Utilisez des draps, des pinces à linge, et des meubles pour construire une cabane."
+  },
+  {
+    "Activité": "Cuisine créative",
+    "Description": "Préparation de plats simples et créatifs par les enfants.",
+    "Instructions": "Choisissez des recettes simples que les enfants peuvent suivre pour créer des plats amusants et sains."
+  },
+  {
+    "Activité": "Yoga pour enfants",
+    "Description": "Séance de yoga adaptée aux enfants pour promouvoir la détente et l'activité physique.",
+    "Instructions": "Utilisez des vidéos ou des applications de yoga pour enfants pour guider une séance."
+  },
+  {
+    "Activité": "Fabrication de cerfs-volants",
+    "Description": "Atelier pour créer des cerfs-volants personnalisés.",
+    "Instructions": "Fournissez des matériaux comme du papier, des bâtons, de la colle, et du fil pour que les enfants puissent construire leurs cerfs-volants."
+  },
+  {
+    "Activité": "Jardinage en pot",
+    "Description": "Initiation au jardinage avec des plantes en pot.",
+    "Instructions": "Choisissez des plantes faciles à entretenir et montrez aux enfants comment planter et s'occuper de leur pot."
+  },
+  {
+    "Activité": "Création de bijoux",
+    "Description": "Atelier pour fabriquer des bijoux personnalisés.",
+    "Instructions": "Fournissez des perles, du fil, et d'autres matériaux pour que les enfants puissent créer leurs propres bijoux."
+  },
+  {
+    "Activité": "Atelier d'écriture de contes",
+    "Description": "Encouragement à la créativité à travers l'écriture de contes.",
+    "Instructions": "Proposez des débuts d'histoires ou des thèmes pour que les enfants développent leur propre conte."
+  },
+  {
+    "Activité": "Expériences scientifiques simples",
+    "Description": "Réalisation d'expériences scientifiques faciles à la maison.",
+    "Instructions": "Choisissez des expériences sûres avec des matériaux domestiques pour explorer des concepts scientifiques."
+  },
+  {
+    "Activité": "Observation des étoiles",
+    "Description": "Découverte des constellations et des corps célestes.",
+    "Instructions": "Utilisez des jumelles ou une application d'astronomie pour observer le ciel nocturne et apprendre sur les étoiles."
+  },
+  {
+    "Activité": "Parcours d'obstacles intérieur",
+    "Description": "Création d'un parcours d'obstacles à l'intérieur.",
+    "Instructions": "Utilisez des coussins, des chaises, et des cordes pour créer un parcours sécuritaire."
+  },
+  {
+    "Activité": "Spectacle de marionnettes maison",
+    "Description": "Fabrication de marionnettes et création d'un spectacle.",
+    "Instructions": "Créez des marionnettes avec des chaussettes ou du papier, puis imaginez un spectacle à présenter."
+  },
+  {
+    "Activité": "Atelier de recyclage créatif",
+    "Description": "Projets d'art à partir de matériaux recyclés.",
+    "Instructions": "Collectez des matériaux recyclables et proposez des idées de projets, comme des sculptures ou des collages."
+  },
+  {
+    "Activité": "Séance photo thématique",
+    "Description": "Organisation d'une séance photo avec un thème choisi.",
+    "Instructions": "Choisissez un thème, créez des déguisements ou des décors, et prenez des photos amusantes."
+  },
+  {
+    "Activité": "Initiation à la musique",
+    "Description": "Découverte des instruments de musique et des bases de la musique.",
+    "Instructions": "Présentez différents instruments, jouez des notes de base et encouragez les enfants à essayer."
+  },
+  {
+    "Activité": "Jeux de société éducatifs",
+    "Description": "Sélection de jeux de société qui stimulent l'apprentissage.",
+    "Instructions": "Choisissez des jeux qui enseignent des compétences comme la stratégie, les mathématiques, ou la lecture."
+  },
+  {
+    "Activité": "Apprentissage de la carte de Genève",
+    "Description": "Découverte géographique et historique de Genève à travers sa carte.",
+    "Instructions": "Utilisez une carte de Genève pour explorer ses quartiers, ses monuments, et son histoire."
+  },
+  {
+    "Activité": "Création de cartes postales",
+    "Description": "Atelier pour créer des cartes postales personnalisées.",
+    "Instructions": "Fournissez du papier, des crayons, et des timbres pour que les enfants puissent créer et envoyer des cartes postales."
+  },
+  {
+    "Activité": "Atelier de peinture avec des bulles",
+    "Description": "Peindre en utilisant des bulles colorées.",
+    "Instructions": "Mélangez du colorant alimentaire ou de la peinture avec une solution à bulles et soufflez sur du papier pour créer des œuvres d'art."
+  },
+  {
+    "Activité": "Écrire et illustrer une histoire",
+    "Description": "Les enfants créent leur propre livre en écrivant et illustrant une histoire.",
+    "Instructions": "Encouragez les enfants à inventer une histoire, puis à dessiner des illustrations correspondantes sur du papier ou à l'aide d'un ordinateur."
+  },
+  {
+    "Activité": "Fabrication d'instruments de musique",
+    "Description": "Création d'instruments de musique simples avec des matériaux de récupération.",
+    "Instructions": "Utilisez des boîtes, des tubes, et d'autres objets recyclables pour fabriquer des instruments comme des tambours, des maracas, ou des flûtes."
+  }
+]
