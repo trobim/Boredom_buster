@@ -1,47 +1,24 @@
-let currentFilter = 'Intérieur'; // Default filter
-let activitiesData = []; // Will hold the activities data
+let activitiesData = [];
 
 document.addEventListener('DOMContentLoaded', function() {
     fetchActivitiesData().then(() => {
-        loadRandomActivity();
+        displayRandomActivity('Intérieur');
+        displayRandomActivity('Extérieur');
     });
 
-    const interiorTab = document.getElementById('interiorTab');
-    const exteriorTab = document.getElementById('exteriorTab');
-    const findActivityButton = document.getElementById('findActivity');
+    const tabs = document.querySelectorAll('.tab');
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            tabs.forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
 
-    interiorTab.addEventListener('click', () => selectTab('Intérieur'));
-    exteriorTab.addEventListener('click', () => selectTab('Extérieur'));
-    findActivityButton.addEventListener('click', loadRandomActivity);
+    document.getElementById('findActivity').addEventListener('click', function() {
+        const activeTab = document.querySelector('.tab.active').textContent;
+        displayRandomActivity(activeTab);
+    });
 });
-
-function selectTab(filter) {
-    currentFilter = filter;
-    document.getElementById('interiorTab').classList.toggle('active', filter === 'Intérieur');
-    document.getElementById('exteriorTab').classList.toggle('active', filter === 'Extérieur');
-    loadRandomActivity();
-}
-
-function loadRandomActivity() {
-    const filteredActivities = activitiesData.filter(activity => activity.Emplacement === currentFilter);
-    if (filteredActivities.length === 0) {
-        document.getElementById('activityCard').innerHTML = '<p>Aucune activité disponible.</p>';
-        return;
-    }
-    const randomActivity = filteredActivities[Math.floor(Math.random() * filteredActivities.length)];
-    displayActivity(randomActivity);
-}
-
-function displayActivity(activity) {
-    const activityCard = document.getElementById('activityCard');
-    activityCard.innerHTML = `
-        <h2>${activity.Activité}</h2>
-        <div class="tag">${activity.Catégorie}</div>
-        <hr>
-        <p>${activity.Description}</p>
-        <p>${activity.Instructions}</p>
-    `;
-}
 
 function fetchActivitiesData() {
     return fetch('activities.json') // Adjust the path if necessary
@@ -52,4 +29,24 @@ function fetchActivitiesData() {
         .catch(error => {
             console.error('Error fetching activities:', error);
         });
+}
+
+function displayRandomActivity(type) {
+    const filteredActivities = activitiesData.filter(activity => activity.Emplacement === type);
+    if (filteredActivities.length === 0) {
+        return;
+    }
+    const randomActivity = filteredActivities[Math.floor(Math.random() * filteredActivities.length)];
+    updateActivityDisplay(randomActivity);
+}
+
+function updateActivityDisplay(activity) {
+    const activityInfoDiv = document.getElementById('activityInfo');
+    activityInfoDiv.innerHTML = `
+        <h2>${activity.Activité}</h2>
+        <div class="category-tag">${activity.Catégorie}</div>
+        <hr>
+        <p>${activity.Description}</p>
+        <p>${activity.Instructions}</p>
+    `;
 }
