@@ -1,27 +1,54 @@
 let activitiesData = [];
+let currentCategory = 'Intérieur';
 
 document.addEventListener('DOMContentLoaded', function() {
     fetchActivitiesData().then(() => {
-        displayRandomActivity('Intérieur');
-        displayRandomActivity('Extérieur');
+        displayRandomActivity(currentCategory);
     });
 
-    const tabs = document.querySelectorAll('.tab');
-    tabs.forEach(tab => {
-        tab.addEventListener('click', function() {
-            tabs.forEach(t => t.classList.remove('active'));
-            this.classList.add('active');
-        });
-    });
+    const interiorTab = document.getElementById('interiorTab');
+    const exteriorTab = document.getElementById('exteriorTab');
+    const findActivityButton = document.getElementById('findActivity');
 
-    document.getElementById('findActivity').addEventListener('click', function() {
-        const activeTab = document.querySelector('.tab.active').textContent;
-        displayRandomActivity(activeTab);
-    });
+    interiorTab.addEventListener('click', () => setActiveTab('Intérieur'));
+    exteriorTab.addEventListener('click', () => setActiveTab('Extérieur'));
+    findActivityButton.addEventListener('click', () => displayRandomActivity(currentCategory));
 });
 
+function setActiveTab(category) {
+    currentCategory = category;
+    document.getElementById('interiorTab').classList.remove('active');
+    document.getElementById('exteriorTab').classList.remove('active');
+    if (category === 'Intérieur') {
+        document.getElementById('interiorTab').classList.add('active');
+    } else {
+        document.getElementById('exteriorTab').classList.add('active');
+    }
+}
+
+function displayRandomActivity(category) {
+    const filteredActivities = activitiesData.filter(activity => activity.Emplacement === category);
+    if (filteredActivities.length === 0) {
+        document.getElementById('activityCard').innerHTML = '<p>Aucune activité disponible pour cette catégorie.</p>';
+        return;
+    }
+    const randomActivity = filteredActivities[Math.floor(Math.random() * filteredActivities.length)];
+    updateActivityCard(randomActivity);
+}
+
+function updateActivityCard(activity) {
+    const activityCard = document.getElementById('activityCard');
+    activityCard.innerHTML = `
+        <h2>${activity.Activité}</h2>
+        <div class="tag">${activity.Catégorie}</div>
+        <hr>
+        <p>${activity.Description}</p>
+        <p>${activity.Instructions}</p>
+    `;
+}
+
 function fetchActivitiesData() {
-    return fetch('activities.json') // Adjust the path if necessary
+    return fetch('/path/to/activities.json') // Adjust the path if necessary
         .then(response => response.json())
         .then(data => {
             activitiesData = data;
@@ -29,24 +56,4 @@ function fetchActivitiesData() {
         .catch(error => {
             console.error('Error fetching activities:', error);
         });
-}
-
-function displayRandomActivity(type) {
-    const filteredActivities = activitiesData.filter(activity => activity.Emplacement === type);
-    if (filteredActivities.length === 0) {
-        return;
-    }
-    const randomActivity = filteredActivities[Math.floor(Math.random() * filteredActivities.length)];
-    updateActivityDisplay(randomActivity);
-}
-
-function updateActivityDisplay(activity) {
-    const activityInfoDiv = document.getElementById('activityInfo');
-    activityInfoDiv.innerHTML = `
-        <h2>${activity.Activité}</h2>
-        <div class="category-tag">${activity.Catégorie}</div>
-        <hr>
-        <p>${activity.Description}</p>
-        <p>${activity.Instructions}</p>
-    `;
 }

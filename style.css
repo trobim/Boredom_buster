@@ -18,16 +18,18 @@ body, html {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+
 .tabs {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 20px 0;
 }
 
 .tab {
     padding: 10px 20px;
     cursor: pointer;
-    background-color: #e0e0e0;
+    background-color: #f0f0f0;
+    margin: 0 5px;
     border-radius: 10px;
     transition: background-color 0.3s;
 }
@@ -35,6 +37,15 @@ body, html {
 .tab.active {
     background-color: white;
 }
+
+.activity-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
 
 .activity-info {
     border: 1px solid #ccc;
