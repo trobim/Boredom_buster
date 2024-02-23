@@ -48,7 +48,7 @@ function updateActivityCard(activity) {
 }
 
 function fetchActivitiesData() {
-    return fetch('/path/to/activities.json') // Adjust the path if necessary
+    return fetch('activities.json') // Adjust the path if necessary
         .then(response => response.json())
         .then(data => {
             activitiesData = data;
