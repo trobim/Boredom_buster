@@ -1,274 +1,274 @@
 [
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Chasse au trésor dans la maison",
+    "Catégorie": "Intérieur",
+    "tag": "Éducation",
+    "title": "Chasse au trésor dans la maison",
     "Description": "Une aventure excitante à l'intérieur, où les enfants cherchent des trésors cachés.",
     "Instructions": "Cachez des objets autour de la maison et créez une carte ou une série d'indices pour les trouver."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Atelier de peinture naturelle",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Atelier de peinture naturelle",
     "Description": "Utilisation de pigments naturels pour peindre.",
     "Instructions": "Collectez des éléments naturels comme des baies, des épices, et des légumes pour créer des peintures. Utilisez-les pour peindre sur du papier."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Construction de cabanes avec des draps",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Construction de cabanes avec des draps",
     "Description": "Création de cabanes et de forts avec des draps et du mobilier.",
     "Instructions": "Utilisez des draps, des pinces à linge, et des meubles pour construire une cabane."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Cuisine créative",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Cuisine créative",
     "Description": "Préparation de plats simples et créatifs par les enfants.",
     "Instructions": "Choisissez des recettes simples que les enfants peuvent suivre pour créer des plats amusants et sains."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Yoga pour enfants",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Yoga pour enfants",
     "Description": "Séance de yoga adaptée aux enfants pour promouvoir la détente et l'activité physique.",
     "Instructions": "Utilisez des vidéos ou des applications de yoga pour enfants pour guider une séance."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Fabrication de cerfs-volants",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Fabrication de cerfs-volants",
     "Description": "Atelier pour créer des cerfs-volants personnalisés.",
     "Instructions": "Fournissez des matériaux comme du papier, des bâtons, de la colle, et du fil pour que les enfants puissent construire leurs cerfs-volants."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Jardinage en pot",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Jardinage en pot",
     "Description": "Initiation au jardinage avec des plantes en pot.",
     "Instructions": "Choisissez des plantes faciles à entretenir et montrez aux enfants comment planter et s'occuper de leur pot."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Création de bijoux",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Création de bijoux",
     "Description": "Atelier pour fabriquer des bijoux personnalisés.",
     "Instructions": "Fournissez des perles, du fil, et d'autres matériaux pour que les enfants puissent créer leurs propres bijoux."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Atelier d'écriture de contes",
+    "Catégorie": "Intérieur",
+    "tag": "Éducation",
+    "title": "Atelier d'écriture de contes",
     "Description": "Encouragement à la créativité à travers l'écriture de contes.",
     "Instructions": "Proposez des débuts d'histoires ou des thèmes pour que les enfants développent leur propre conte."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Expériences scientifiques simples",
+    "Catégorie": "Intérieur",
+    "tag": "Éducation",
+    "title": "Expériences scientifiques simples",
     "Description": "Réalisation d'expériences scientifiques faciles à la maison.",
     "Instructions": "Choisissez des expériences sûres avec des matériaux domestiques pour explorer des concepts scientifiques."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Observation des étoiles",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Observation des étoiles",
     "Description": "Découverte des constellations et des corps célestes.",
     "Instructions": "Utilisez des jumelles ou une application d'astronomie pour observer le ciel nocturne et apprendre sur les étoiles."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Parcours d'obstacles intérieur",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Parcours d'obstacles intérieur",
     "Description": "Création d'un parcours d'obstacles à l'intérieur.",
     "Instructions": "Utilisez des coussins, des chaises, et des cordes pour créer un parcours sécuritaire."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Spectacle de marionnettes maison",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Spectacle de marionnettes maison",
     "Description": "Fabrication de marionnettes et création d'un spectacle.",
     "Instructions": "Créez des marionnettes avec des chaussettes ou du papier, puis imaginez un spectacle à présenter."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Atelier de recyclage",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Atelier de recyclage",
     "Description": "Projets d'art à partir de matériaux recyclés.",
     "Instructions": "Collectez des matériaux recyclables et proposez des idées de projets, comme des sculptures ou des collages."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Séance photo thématique",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Séance photo thématique",
     "Description": "Organisation d'une séance photo avec un thème choisi.",
     "Instructions": "Choisissez un thème, créez des déguisements ou des décors, et prenez des photos amusantes."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Initiation à la musique",
+    "Catégorie": "Intérieur",
+    "tag": "Éducation",
+    "title": "Initiation à la musique",
     "Description": "Découverte des instruments de musique et des bases de la musique.",
     "Instructions": "Présentez différents instruments, jouez des notes de base et encouragez les enfants à essayer."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Jeux de société éducatifs",
+    "Catégorie": "Intérieur",
+    "tag": "Éducation",
+    "title": "Jeux de société éducatifs",
     "Description": "Sélection de jeux de société qui stimulent l'apprentissage.",
     "Instructions": "Choisissez des jeux qui enseignent des compétences comme la stratégie, les mathématiques, ou la lecture."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Apprentissage de la carte de Genève",
+    "Catégorie": "Intérieur",
+    "tag": "Éducation",
+    "title": "Apprentissage de la carte de Genève",
     "Description": "Découverte géographique et historique de Genève à travers sa carte.",
     "Instructions": "Utilisez une carte de Genève pour explorer ses quartiers, ses monuments, et son histoire."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Création de cartes postales",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Création de cartes postales",
     "Description": "Atelier pour créer des cartes postales personnalisées.",
     "Instructions": "Fournissez du papier, des crayons, et des timbres pour que les enfants puissent créer et envoyer des cartes postales."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Atelier de peinture avec des bulles",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Atelier de peinture avec des bulles",
     "Description": "Peindre en utilisant des bulles colorées.",
     "Instructions": "Mélangez du colorant alimentaire ou de la peinture avec une solution à bulles et soufflez sur du papier pour créer des œuvres d'art."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Écrire et illustrer une histoire",
+    "Catégorie": "Intérieur",
+    "tag": "Créatif",
+    "title": "Écrire et illustrer une histoire",
     "Description": "Les enfants créent leur propre livre en écrivant et illustrant une histoire.",
     "Instructions": "Encouragez les enfants à inventer une histoire, puis à dessiner des illustrations correspondantes sur du papier ou à l'aide d'un ordinateur."
   },
   {
-    "Emplacement": "Intérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Fabrication d'instruments de musique",
+    "Catégorie": "Intérieur",
+    "tag": "Éducation",
+    "title": "Fabrication d'instruments de musique",
     "Description": "Création d'instruments de musique simples avec des matériaux de récupération.",
     "Instructions": "Utilisez des boîtes, des tubes, et d'autres objets recyclables pour fabriquer des instruments comme des tambours, des maracas, ou des flûtes."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Parc La Grange",
+    "Catégorie": "Extérieur",
+    "tag": "Éducation",
+    "title": "Parc La Grange",
     "Description": "Découvrir la flore et la faune locales dans le plus grand parc de Genève",
     "Instructions": "Utiliser une loupe pour observer les insectes et les plantes. Tenir un journal de vos découvertes."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Baby Plage",
+    "Catégorie": "Extérieur",
+    "tag": "Créatif",
+    "title": "Baby Plage",
     "Description": "Créer des sculptures et des œuvres d'art imaginatives à partir de sable",
     "Instructions": "Instructions: Rassembler des matériaux naturels de la plage pour décorer vos créations de sable."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Jardin Anglais",
+    "Catégorie": "Extérieur",
+    "tag": "Créatif",
+    "title": "Jardin Anglais",
     "Description": "Chasse au trésor historique",
     "Instructions": "Apprendre l'histoire de Genève grâce à une chasse au trésor amusante dans le Jardin Anglais. Suivre des indices pour trouver des monuments historiques et apprendre des faits intéressants."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Parc des Eaux-Vives",
+    "Catégorie": "Extérieur",
+    "tag": "Éducation",
+    "title": "Parc des Eaux-Vives",
     "Description": "Observation d'oiseaux",
     "Instructions": "Identifier différentes espèces d'oiseaux et apprendre leurs habitudes. Utiliser des jumelles et un guide d'oiseaux pour repérer et identifier les oiseaux."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Parc La Grange",
+    "Catégorie": "Extérieur",
+    "tag": "Créatif",
+    "title": "Parc La Grange",
     "Description": "Peinture à la craie",
     "Instructions": "Apporter de la craie. Choisir un endroit confortable et commencer à peindre."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Plaine de Plainpalais",
+    "Catégorie": "Extérieur",
+    "tag": "Créatif",
+    "title": "Plaine de Plainpalais",
     "Description": "Fabrication et vol de cerf-volant",
     "Instructions": "Fabriquer votre propre cerf-volant et le faire voler dans l'espace ouvert de la Plaine de Plainpalais. Construire un cerf-volant avec des bâtons, du papier et de la corde. Trouver un espace ouvert pour faire voler votre cerf-volant."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Parc Trembley",
+    "Catégorie": "Extérieur",
+    "tag": "Éducation",
+    "title": "Parc Trembley",
     "Description": "Safari d'insectes",
     "Instructions": "Partir en safari d'insectes pour observer et apprendre sur différents insectes. Attraper doucement des insectes avec un filet, les observer, et les relâcher."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Île Rousseau",
+    "Catégorie": "Extérieur",
+    "tag": "Éducation",
+    "title": "Île Rousseau",
     "Description": "Étude de l'écosystème aquatique",
     "Instructions": "Apprendre sur l'écosystème aquatique et l'importance de sa préservation. Observer les créatures et les plantes aquatiques, discuter des moyens de protéger les plans d'eau."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Musée d'histoire naturelle de Genève",
+    "Catégorie": "Extérieur",
+    "tag": "Éducation",
+    "title": "Musée d'histoire naturelle de Genève",
     "Description": "Atelier de paléontologie",
     "Instructions": "Participer à un atelier pour découvrir les dinosaures et fouiller comme un vrai paléontologue. Suivre les instructions du guide pour utiliser les outils de fouille sur un faux site archéologique."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Cinéma Pathé Eaux-Vives",
+    "Catégorie": "Extérieur",
+    "tag": "Créatif",
+    "title": "Cinéma Pathé Eaux-Vives",
     "Description": "Séance cinéma enfant",
     "Instructions": "Assister à une projection de film adapté aux enfants avec des animations spéciales. Choisir un film de la programmation enfant et participer aux activités proposées avant la séance."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Grand Théâtre de Genève",
+    "Catégorie": "Extérieur",
+    "tag": "Créatif",
+    "title": "Grand Théâtre de Genève",
     "Description": "Initiation à l'opéra pour enfants",
     "Instructions": "Découverte de l'opéra à travers une représentation spécialement conçue pour les enfants. Assister à la représentation et participer à l'atelier de découverte qui suit."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Éducation",
-    "Activité": "MAMCO (Musée d'art moderne et contemporain)",
+    "Catégorie": "Extérieur",
+    "tag": "Éducation",
+    "title": "MAMCO (Musée d'art moderne et contemporain)",
     "Description": "Parcours ludique dans l'art contemporain",
     "Instructions": "Explorer l'art contemporain à travers un parcours ludique et interactif conçu pour les enfants. Suivre le parcours proposé par le musée et participer aux activités interactives."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Théâtre des Marionnettes de Genève",
+    "Catégorie": "Extérieur",
+    "tag": "Éducation",
+    "title": "Théâtre des Marionnettes de Genève",
     "Description": "Spectacle de marionnettes",
     "Instructions": "Découvrir le monde magique des marionnettes à travers un spectacle captivant. Choisir un spectacle adapté à l'âge de l'enfant et réserver les places à l'avance."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Musée d'art et d'histoire de Genève",
+    "Catégorie": "Extérieur",
+    "tag": "Créatif",
+    "title": "Musée d'art et d'histoire de Genève",
     "Description": "Chasse au trésor au musée",
     "Instructions": "Participer à une chasse au trésor pour découvrir les œuvres d'art de manière ludique. Se rendre à l'accueil du musée pour recevoir le kit de la chasse au trésor et suivre les indices."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Créatif",
-    "Activité": "CinéLac",
+    "Catégorie": "Extérieur",
+    "tag": "Créatif",
+    "title": "CinéLac",
     "Description": "Cinéma en plein air",
     "Instructions": "Visionner un film en famille au bord du lac lors des soirées d'été. Consulter le programme des projections, apporter des coussins ou des chaises pliantes pour plus de confort."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Éducation",
-    "Activité": "Pitoëff Théâtre",
+    "Catégorie": "Extérieur",
+    "tag": "Éducation",
+    "title": "Pitoëff Théâtre",
     "Description": "Atelier de théâtre pour enfants",
     "Instructions": "Explorer l'expression corporelle et la créativité à travers un atelier de théâtre. Inscrire l'enfant à l'atelier et participer à la présentation finale pour les parents."
   },
   {
-    "Emplacement": "Extérieur",
-    "Catégorie": "Créatif",
-    "Activité": "Fondation Martin Bodmer",
+    "Catégorie": "Extérieur",
+    "tag": "Créatif",
+    "title": "Fondation Martin Bodmer",
     "Description": "Visite contée",
     "Instructions": "Découvrir la littérature et l'histoire à travers des contes et récits passionnants. Réserver la visite contée adaptée aux enfants pour une immersion dans les histoires du passé."
   }

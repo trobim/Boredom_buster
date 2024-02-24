@@ -1,24 +1,48 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chasse-Ennui</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab Activities</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>Chasse-Ennui</h1>
-        <p>Fatigué de tourner en rond, à la recherche de quelque chose d'excitant à faire?</p>
-        <div class="tabs">
-            <div id="interiorTab" class="tab active">Intérieur</div>
-            <div id="exteriorTab" class="tab">Extérieur</div>
-        </div>
-        <div id="activityCard" class="activity-card">
-            <!-- Content populated with JavaScript -->
-        </div>
-        <button id="findActivity" class="button">Trouver une activité</button>
+    <div class="header">
+        <h1 class="m1">Chasse-Ennui</h1>
+        <p class="m2">Fatigué de tourner en rond, à la recherche de quelque chose d'excitant à faire?</p>
     </div>
-    <script src="script.js"></script>
+    <div class="card">
+    <div class="tab">
+        <button class="tablinks active" onclick="openTab(event, 'Intérieur')">Intérieur</button>
+        <button class="tablinks" onclick="openTab(event, 'Extérieur')">Extérieur</button>
+      </div>
+      
+      <div id="Intérieur" class="tabcontent" style="display:block;">
+        <div id="activityContent_Intérieur">
+          <h3 id="activityTitle_Intérieur">Activity Title</h3>
+          <p id="activityTag_Intérieur">Tag: Éducation</p>
+          <h2 id="activityDescription_Intérieur">Activity Description</h2>
+          <p id="activityInstructions_Intérieur">Instructions: Cachez des objets autour de la maison et créez une carte ou une série d'indices pour les trouver.</p>
+          <button class="random" onclick="loadNewRandomActivity('Intérieur')">Load New Random Activity</button>
+        </div>
+      </div>
+      
+      <div id="Extérieur" class="tabcontent">
+        <div id="activityContent_Extérieur">
+          <h3 id="activityTitle_Extérieur">Activity Title</h3>
+          <p id="activityTag_Extérieur">Tag: Éducation</p>
+          <h2 id="activityDescription_Extérieur">Activity Description</h2>
+          <p id="activityInstructions_Extérieur">Instructions: Cachez des objets à l'extérieur et créez une carte ou une série d'indices pour les trouver.</p>
+          <button class="random" onclick="loadNewRandomActivity('Extérieur')">Load New Random Activity</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+
+
+<script src="script.js"></script>
 </body>
 </html>
